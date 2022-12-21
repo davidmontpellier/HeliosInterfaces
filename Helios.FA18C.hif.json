@@ -4096,6 +4096,29 @@
       ]
     },
     {
+      "heliosType": "DCS.Common.Axis",
+      "device": "HMD",
+      "name": "HMD OFF/BRT",
+      "description": "Current value of this axis.",
+      "exports": [
+        {
+          "format": "%.2f",
+          "isExportedEveryFrame": false,
+          "id": "136"
+        }
+      ],
+      "loop": false,
+      "argumentValue": 0.15,
+      "argumentMin": 0.0,
+      "argumentMax": 1.0,
+      "actions": {
+        "set": {
+          "deviceId": "58",
+          "actionId": "3001"
+        }
+      }
+    },
+    {
       "heliosType": "DCS.Common.Switch",
       "device": "HOTAS",
       "name": "Exterior Lights Switch",
