@@ -7803,6 +7803,89 @@
       ]
     },
     {
+      "heliosType": "DCS.Common.Switch",
+      "device": "Sensor panel",
+      "name": "FLIR",
+      "description": "Current position of this switch.",
+      "exports": [
+        {
+          "format": "%0.1f",
+          "isExportedEveryFrame": false,
+          "id": "439"
+        }
+      ],
+      "deviceId": "62",
+      "positions": [       
+        {
+          "argumentValue": "1.0",
+          "name": "ON",
+          "actionID": "3001"
+        },
+        {
+          "argumentValue": "0.0",
+          "name": "STBY",
+          "actionID": "3001"
+        },
+		    {
+          "argumentValue": "-1.0",
+          "name": "OFF",
+          "actionID": "3001"
+        }
+      ]
+    },
+  	{
+      "heliosType": "DCS.Common.Switch",
+      "device": "Sensor panel",
+      "name": "LTD/R",
+      "description": "Current position of this switch.",
+      "exports": [
+        {
+          "format": "%0.1f",
+          "isExportedEveryFrame": false,
+          "id": "441"
+        }
+      ],
+      "deviceId": "62",
+      "positions": [       
+        {
+          "argumentValue": "1.0",
+          "name": "ARM",
+          "actionID": "3002"
+        },
+		    {
+          "argumentValue": "0.0",
+          "name": "SAFE",
+          "actionID": "3002"
+        }
+      ]
+    },
+	  {
+      "heliosType": "DCS.Common.Switch",
+      "device": "Sensor panel",
+      "name": "LST/NFLR",
+      "description": "Current position of this switch.",
+      "exports": [
+        {
+          "format": "%0.1f",
+          "isExportedEveryFrame": false,
+          "id": "442"
+        }
+      ],
+      "deviceId": "62",
+      "positions": [       
+        {
+          "argumentValue": "1.0",
+          "name": "ON",
+          "actionID": "3003"
+        },
+		{
+          "argumentValue": "0.0",
+          "name": "OFF",
+          "actionID": "3003"
+        }
+      ]
+    },
+    {
       "heliosType": "DCS.Common.NetworkValue",
       "device": "Simulator Telemetry",
       "name": "pitch",
