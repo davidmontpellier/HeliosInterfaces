@@ -3782,6 +3782,12 @@
           "name": "Brake Off",
           "actionID": "3005",
           "stopActionID": "3005"
+        },{
+          "exitValue": "0.5",
+          "argumentValue": "0.5",
+          "name": "Emergency Brake",
+          "actionID": "3005",
+          "stopActionID": "3005"
         },
         {
           "exitValue": "1.0",
